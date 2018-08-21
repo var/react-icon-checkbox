@@ -1,0 +1,37 @@
+{
+    "name": "react-icon-checkbox",
+    "version": "0.1.0",
+    "description": "Icon checkbox component for react",
+    "main": "index.js",
+    "source": "src/index.js",
+    "homepage": "https://github.com/var/react-icon-checkbox",
+    "repository": "https://github.com/var/react-icon-checkbox",
+    "bugs": "https://github.com/var/react-icon-checkbox/issues",
+    "author": "Vimal Atreya Ramaka",
+    "license": "MIT",
+    "keywords": [
+      "react",
+      "checkbox",
+      "like",
+      "favorite"
+    ],
+    "scripts": {
+      "dist": "babel src -d dist --copy-files && cp -rf package.json dist && cp -rf README.md dist && cd dist && npm publish"
+    },
+    "peerDependencies": {
+      "react": "^16.4.0",
+      "react-dom": "^16.4.0",
+      "prop-types": "15.6.1"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.0.0-beta.49",
+      "@babel/core": "^7.0.0-beta.49",
+      "@babel/plugin-proposal-class-properties": "^7.0.0-beta.49",
+      "@babel/plugin-syntax-dynamic-import": "^7.0.0-beta.49",
+      "@babel/preset-env": "^7.0.0-beta.49",
+      "@babel/preset-react": "^7.0.0-beta.49",
+      "@babel/preset-stage-0": "^7.0.0-beta.49",
+      "@babel/register": "^7.0.0-beta.49"
+    },
+    "dependencies": {}
+  }
