@@ -1,6 +1,6 @@
 {
   "name": "react-icon-checkbox",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Icon checkbox component for react",
   "main": "index.js",
   "source": "src/index.js",
