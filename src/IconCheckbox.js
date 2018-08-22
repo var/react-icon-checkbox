@@ -7,7 +7,9 @@ class IconCheckbox extends Component {
         return (
             <label className='icon-checkbox-container'>
             <input className='icon-checkbox' type='checkbox' onClick={this.props.onClick} checked={this.props.checked} />
-            <span className={this.props.iconContainerClassName ? this.props.iconContainerClassName : 'icon-container'} style={this.props.iconContainerStyle}>{this.props.checked ? this.props.checkedIcon : this.props.uncheckedIcon}</span>
+            <span className={this.props.iconContainerClassName ? this.props.iconContainerClassName : 'icon-container'} style={this.props.iconContainerStyle}>
+            {this.props.checked ? <span className="checked-icon">{this.props.checkedIcon}</span> : <span className="unchecked-icon">{this.props.uncheckedIcon}</span>}
+            </span>
             </label>
         )
     }
